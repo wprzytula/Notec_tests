@@ -21,8 +21,8 @@ debug:
         mov     rax, rsp
         mov     r8, 16
         div     r8
-        test    dx, dx
-        jnz     error
+        cmp     rdx, 8
+        jne     error
                                 ; doing many nasty yet allowed things
         mov     rdx, obrzydliwy_smiec
         mov     rdi, obrzydliwy_smiec
