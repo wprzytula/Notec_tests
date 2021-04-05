@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if ! [ -e rational_egoism.sh ]
 then echo "People shall not demand that other people feed them and supply simply because they have been more successful than themselves, whereas this script shall be run from project main folder!"
